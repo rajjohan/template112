@@ -1,0 +1,536 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#header div {
+    display: flex;
+    list-style: none;
+
+}
+#header div li a{
+    text-decoration: none;
+}
+
+#header div li {
+    justify-content: space-between;
+    font-size: 30px;
+
+    padding-right: 110px;
+}
+
+#header div li:hover {
+    cursor: pointer;
+    font-size: 35px;
+}
+
+
+#header div h1 {
+    font-size: 45px;
+    margin-left: 15px;
+}
+
+#template {
+    width: 100%;
+    background-image: url(./img/images.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 120vh;
+
+
+}
+
+#template div {
+    padding: 25%;
+    color: white;
+
+}
+
+#template div h1 {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#template div h2 {
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+#template div button {
+    width: 40%;
+    padding: 30px;
+    /* margin-top: 10px; */
+    margin: 120px;
+    border-radius: 30px;
+    margin-left: 200px;
+    color: white;
+    background-color: orange;
+    
+transition: all;
+}
+
+#template div button:hover{
+transition-delay: 1s;
+transition-duration: 3s;
+width: 50%;
+padding: 30px;
+background-color: green;
+cursor: pointer;
+   
+}
+
+@media screen and (max-width: 1024px){
+    #header {
+        background-color: green;
+        font-size: 20px;
+        margin-left: 15px;
+    }
+}
+
+@media screen and (max-width: 730px){
+    #header {
+        background-color: yellow;
+    }
+}
+
+@media screen and (max-width: 530px){
+    #header {
+        background-color: lightblue;
+    }
+}
+@media screen and (max-width: 380px){
+    #header {
+        background-color: black     ;
+    }
+    
+}
+
+
+/* ================================main section===================== */
+
+#card {
+    width: 100%;
+    height: 190vh;
+}
+
+.card_parent {
+    display: flex;
+    width: 100%;
+    height: 90vh;
+    margin-top: 60px;
+    justify-content: space-around;
+}
+
+.imag {
+    background-image: url(./img/11.png);
+    width: 650px;
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.imag2 {
+    background-image: url(./img/2.png);
+    width: 660px;
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.first {
+    border-radius: 20px;
+    border: 1px solid gray;
+    border-bottom: 1px solid gray;
+    padding-bottom: 30px;
+}
+
+.first h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+.card_btn {
+    margin: 50px;
+    margin-left: 100px;
+    border: 2px blue;
+}
+
+.card_btn button {
+    width: 90%;
+    padding: 30px;
+    border-radius: 20px;
+    border: 2px blue;
+    color: blue;
+}
+
+
+#card2 {
+    width: 100%;
+    height: 60vh;
+    /* background-color: red; */
+}
+
+.card_parent2 {
+    display: flex;
+    width: 100%;
+    height: 90vh;
+    margin-top: 60px;
+    justify-content: space-around;
+}
+
+.imag2 {
+    background-image: url(./img/3.png);
+    width: 650px;
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.imag22 {
+    background-image: url(./img/44.png);
+    width: 660px;
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.first2 {
+    border-radius: 20px;
+    border: 1px solid gray;
+    border-bottom: 1px solid gray;
+    padding-bottom: 30px;
+}
+
+.first2 h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+.card_btn2 {
+    margin: 50px;
+    margin-left: 100px;
+    border: 2px blue;
+}
+
+.card_btn2 button {
+    width: 90%;
+    padding: 30px;
+    border-radius: 20px;
+    border: 2px blue;
+    color: blue;
+}
+
+
+
+#lore {
+    /* background-color: red; */
+    width: 100%;
+    height: 60vh;
+}
+
+.popular h1 {
+    text-align: center;
+    font-size: 30px;
+    justify-content: space-between;
+}
+
+.parent {
+    /* background-color: aqua; */
+    width: 98%;
+    height: 50vh;
+    margin: 0% auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.boxone {
+    /* background-color: rgba(128, 128, 128, 0.49); */
+    justify-content: space-between;
+    width: 260px;
+    height: 30px;
+    margin-top: 60px;
+
+}
+
+.child1 {
+    background-image: url(./img/p1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 230px;
+    height: 220px;
+}
+
+.a2 {
+    text-align: center;
+}
+
+.boxtwo {
+    /* background-color: rgba(128, 128, 128, 0.49); */
+    justify-content: space-between;
+    width: 260px;
+    height: 350px;
+    margin-top: 60px;
+
+}
+
+.p2 {
+    background-image: url(./img/p2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 230px;
+    height: 220px;
+}
+
+.boxthree {
+    /* background-color: rgba(128, 128, 128, 0.49); */
+    justify-content: space-between;
+    width: 260px;
+    height: 350px;
+    margin-top: 60px;
+
+}
+
+.p3 {
+    background-image: url(./img/photo3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 230px;
+    height: 220px;
+}
+
+.boxfour {
+    /* background-color: rgba(128, 128, 128, 0.49); */
+    justify-content: space-between;
+    width: 260px;
+    height: 350px;
+    margin-top: 60px;
+
+}
+
+.p4 {
+    background-image: url(./img/p4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 230px;
+    height: 220px;
+}
+
+.boxfive {
+    /* background-color: rgba(128, 128, 128, 0.49); */
+    justify-content: space-between;
+    width: 260px;
+    height: 350px;
+    margin-top: 60px;
+
+}
+
+.p5 {
+    background-image: url(./img/p5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 230px;
+    height: 220px;
+}
+
+.boxsix {
+    /* background-color: rgba(128, 128, 128, 0.49); */
+    justify-content: space-between;
+    width: 260px;
+    height: 350px;
+    margin-top: 60px;
+
+}
+
+.p6 {
+    background-image: url(./img/p6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 230px;
+    height: 220px;
+}
+
+#booking {
+    /* background-color: red; */
+    width: 100%;
+    height: 280vh;
+}
+
+.paragrah {
+    /* background-color: aqua; */
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+      
+}
+
+.thus {
+    font-size: 30px;
+padding: 90px;
+}
+
+.thus2 {
+    background-image: url(./img/Best\ Hotel\ Website\ Designs.jpg);
+    width:50%;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 40px;
+    margin-top: 50px;
+    border-radius: 20px;
+
+}
+.thusicon a{
+    text-decoration: none;
+    color: red;
+}
+
+.thusicon i{
+    margin-left: 6%;
+}
+
+.texy {
+    /* background-color: aqua; */
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+      
+}
+
+.texi {
+    font-size: 30px;
+padding: 90px;
+}
+
+.texipic {
+    background-image: url(./img/texi.jpg);
+    width:50%;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 40px;
+    margin-top: 50px;
+    border-radius: 20px;
+
+}
+.texicon a{
+text-decoration: none;
+color: red;
+}
+
+.texicon i{
+margin-left: 6%;
+}
+
+
+.cars {
+    /* background-color: aqua; */
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+      
+}
+
+.car {
+    font-size: 30px;
+padding: 90px;
+width: 50%;
+    /* height: 90vh; */
+    /* background-color: red; */
+}
+
+.carpic {
+    background-image: url(./img/car\ rental.jpg);
+    width:50%;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 40px;
+    margin-top: 50px;
+    border-radius: 20px;
+
+}
+
+
+.crd__btn a{
+    text-decoration: none;
+    color: red;
+   
+}
+.crd__btn i{
+  
+    margin-left: 6%;
+}
+
+footer{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./img/images\ \(3\).jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    /* padding-left: 8%; */
+
+}
+
+footer .trems{
+    display: flex;
+    /* margin-left: 20px; */
+}
+
+nav ul{
+    display: flex;
+    color: aliceblue;
+    /* justify-content: space-between; */
+}
+
+nav ul li{
+    list-style: none;
+    font-size: 30px;
+    padding: 67px;
+    
+   
+}
+.trems ul{
+    color: aliceblue;
+    /* margin-left: 30px; */
+    padding: 60px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+
+.trems ul li{
+    list-style: none;
+    font-size: 20px;
+    padding: 15%;
+   
+ 
+}
+
+#last{
+    background-color: orange;
+    width: 100%;
+    height: 10vh;
+}
+
+#last div h1{
+    text-align: center;
+}
+
+
